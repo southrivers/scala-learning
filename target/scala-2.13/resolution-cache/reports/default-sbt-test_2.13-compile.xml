@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="sbt-test_2.13"
+		revision="0.1"
+		conf="compile"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
+		date="20211031104520"/>
+	<dependencies>
+		<module organisation="org.scala-lang" name="scala-reflect">
+			<revision name="2.13.2" status="release" pubdate="20200423120220" resolver="public" artresolver="public" homepage="https://www.scala-lang.org/" extra-info.apiURL="https://www.scala-lang.org/api/2.13.2/scala-reflect/" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="1824" time="1047" location="/Users/shuaizi/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.13.2.xml" searched="true" original-local-location="/Users/shuaizi/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.13.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.2/scala-reflect-2.13.2.pom"/>
+				<caller organisation="default" name="sbt-test_2.13" conf="compile" rev="2.13.2" rev-constraint-default="2.13.2" rev-constraint-dynamic="2.13.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="scala-reflect" type="jar" ext="jar" status="successful" details="" size="3625052" time="7054" location="/Users/shuaizi/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.13.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.2/scala-reflect-2.13.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.13.2" status="release" pubdate="20200423120229" resolver="public" artresolver="public" homepage="https://www.scala-lang.org/" extra-info.apiURL="https://www.scala-lang.org/api/2.13.2/" downloaded="true" searched="true" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="1">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="1600" time="874" location="/Users/shuaizi/.ivy2/cache/org.scala-lang/scala-library/ivy-2.13.2.xml" searched="true" original-local-location="/Users/shuaizi/.ivy2/cache/org.scala-lang/scala-library/ivy-2.13.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.2/scala-library-2.13.2.pom"/>
+				<caller organisation="org.scala-lang" name="scala-reflect" conf="default, compile, runtime, master" rev="2.13.2" rev-constraint-default="2.13.2" rev-constraint-dynamic="2.13.2" callerrev="2.13.2"/>
+				<caller organisation="default" name="sbt-test_2.13" conf="compile" rev="2.13.0" rev-constraint-default="2.13.0" rev-constraint-dynamic="2.13.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="successful" details="" size="5865349" time="12352" location="/Users/shuaizi/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.13.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.2/scala-library-2.13.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="2.13.0" status="release" pubdate="20190607190246" resolver="sbt-chain" artresolver="sbt-chain" evicted="latest-revision" evicted-reason="" homepage="https://www.scala-lang.org/" extra-info.apiURL="https://www.scala-lang.org/api/2.13.0/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="-1">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2659" time="0" location="/Users/shuaizi/.ivy2/cache/org.scala-lang/scala-library/ivy-2.13.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.0/scala-library-2.13.0.pom"/>
+				<evicted-by rev="2.13.2"/>
+				<caller organisation="default" name="sbt-test_2.13" conf="compile" rev="2.13.0" rev-constraint-default="2.13.0" rev-constraint-dynamic="2.13.0" callerrev="0.1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
